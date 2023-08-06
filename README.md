@@ -49,7 +49,7 @@ $ cast <subcommand>
 ### Verify
 
 ```shell
-forge verify-contract <contract address> IglooNFT --chain <chain> 
+forge verify-contract <contract address> IglooNFT --chain <chain> --watch
 ```
 
 ### Help
