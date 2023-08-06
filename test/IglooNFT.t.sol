@@ -5,13 +5,13 @@ import "forge-std/Test.sol";
 import "../src/IglooNFT.sol";
 
 contract IglooNFTTest is Test {
-  IglooNFT public instance;
+    IglooNFT public instance;
 
-  function setUp() public {
-    instance = new IglooNFT();
-  }
+    function setUp() public {
+        instance = new IglooNFT();
+    }
 
-  function testUri() public {
-    assertEq(instance.uri(0), "");
-  }
+    function testUri() public {
+        assertEq(instance.uri(0), "");
+    }
 }

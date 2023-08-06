@@ -5,12 +5,12 @@ import "forge-std/Script.sol";
 import "../src/IglooNFT.sol";
 
 contract IglooNFTScript is Script {
-  function setUp() public {}
+    function setUp() public {}
 
-  function run() public {
-    vm.startBroadcast();
-    IglooNFT instance = new IglooNFT();
-    console.log("Contract deployed to %s", address(instance));
-    vm.stopBroadcast();
-  }
+    function run() public {
+        vm.startBroadcast();
+        IglooNFT instance = new IglooNFT();
+        console.log("Contract deployed to %s", address(instance));
+        vm.stopBroadcast();
+    }
 }
