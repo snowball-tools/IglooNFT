@@ -1,1 +1,4 @@
-IglooNFTTest:testUri() (gas: 9237)
+IglooNFTTest:testBurn() (gas: 489430)
+IglooNFTTest:testOwner() (gas: 7816)
+IglooNFTTest:testSafeMint() (gas: 541920)
+IglooNFTTest:testUri() (gas: 927479)

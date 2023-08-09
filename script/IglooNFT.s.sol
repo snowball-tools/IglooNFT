@@ -9,8 +9,15 @@ contract IglooNFTScript is Script {
 
     function run() public {
         vm.startBroadcast();
+        IglooNFTMetadata metadata = new IglooNFTMetadata();
+        console.log("IglooNFTMetadata contract deployed to %s", address(metadata));
+
         IglooNFT instance = new IglooNFT();
         console.log("Contract deployed to %s", address(instance));
+
+        instance.setIglooNftMetadataAddress(address(metadata));
+        console.log("IglooNFTMetadata address set to %s", address(metadata));
+
         vm.stopBroadcast();
     }
 }
