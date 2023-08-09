@@ -1,6 +1,6 @@
 ## IglooNFT
 
-ERC-1155 NFT contract for Igloo Testing
+ERC-721 with on-chain metadata + svg
 
 - IglooNFTMetadata on Goerli: [0xeba1B46Fb14cA3a1CbC9405865A61F895F43ed6d](https://goerli.etherscan.io/address/0xeba1B46Fb14cA3a1CbC9405865A61F895F43ed6d)
 - IglooNFT on Goerli: [0x799e75059126E6DA27A164d1315b1963Fb82c44F](https://goerli.etherscan.io/address/0x799e75059126E6DA27A164d1315b1963Fb82c44F)
